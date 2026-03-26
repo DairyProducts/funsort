@@ -6,6 +6,8 @@ or if you just want to make your programs less efficient for no reason.
 
 ## Usage
 
+For a list of supported algorithms, see [ALGORITHMS.md](ALGORITHMS.md).
+
 You can import a specific sorting function and use it to sort a list. 
 For example, to use the `bubble_sort` function:
 ```python

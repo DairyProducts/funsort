@@ -32,8 +32,17 @@ def adhd_sort(data, inPlace=False):
         if len(working) >= 2 and random.random() < 0.4:
             i, j = random.sample(range(len(working)), 2)
             working[i], working[j] = working[j], working[i]
-    result = sorted(working)
+
+    for i in range(len(working)):
+        swapped = False
+        for j in range(0, len(working) - i - 1):
+            if working[j] > working[j + 1]:
+                working[j], working[j + 1] = working[j + 1], working[j]
+                swapped = True
+        if not swapped:
+            break
+
     if inPlace:
-        data[:] = result
+        data[:] = working
         return data
-    return result
+    return working

@@ -4,6 +4,12 @@ A little Python package with fun sorting algorithms.
 Perfect if you would like a simple way to explore and compare various sorting algorithms, 
 or if you just want to make your programs less efficient for no reason.
 
+### Important!
+
+If you are reading this on PyPI, please note that this README was meant to be viewed
+with references to the project files. For a better experience, please view the README on GitHub
+by clicking [here](https://github.com/DairyProducts/funsort/).
+
 ## Usage
 
 For a list of supported algorithms, see [ALGORITHMS.md](ALGORITHMS.md).

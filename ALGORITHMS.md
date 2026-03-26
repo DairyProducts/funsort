@@ -33,7 +33,7 @@ Import with `from funsort import Esoteric` or
 | Bogo Sort | `bogo_sort` | `bogo.py` | O(n!) | Ω(∞) | Θ(n!) | Randomly shuffles until sorted. |
 | Bozo Sort | `bozo_sort` | `bozo.py` | O(n^2) | Ω(∞) | Θ(n^2) | Randomly swaps two elements until sorted. |
 | Intelligent Design Sort | `intelligent_design_sort` | `intelligentdesign.py` | O(1) | Ω(1) | Θ(1) | Returns a copy unchanged; does **not** sort unsorted input. |
-| Miracle Sort | `miracle_sort` | `miracle.py` | O(n log n) | Ω(n log n) | Θ(n log n) | If unsorted, sleeps for `wait_time`, then returns `sorted(...)`. |
+| Miracle Sort | `miracle_sort` | `miracle.py` | O(n log n) | Ω(n log n) | Θ(n log n) | If unsorted, waits for a miracle to sort the list. |
 | Schrödinger Sort | `schrodinger_sort` | `schrodinger.py` | O(n) | Ω(n log n) | Θ(n log n) | Randomly returns either sorted output or unchanged copy. |
 | 6-7 Sort | `six_seven_sort` | `sixseven.py` | O(n) | Ω(n) | Θ(n) | Keeps only values equal to `6` or `7`, then sorts. |
 | Sleep Sort | `sleep_sort` | `sleep.py` | O(n + max(data)) | Ω(n) | Θ(n + max(data)) | Non-negative `int`/`float` only; output timing depends on thread scheduling. |

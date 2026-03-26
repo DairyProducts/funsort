@@ -23,8 +23,7 @@ def miracle_sort(data, wait_time=1.0, inPlace=False):
     working = data if inPlace else data.copy()
     if working != sorted(working):
         time.sleep(wait_time)
-    result = sorted(working)
     if inPlace:
-        data[:] = result
+        data[:] = working
         return data
-    return result
+    return working
